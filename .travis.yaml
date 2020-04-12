@@ -1,0 +1,7 @@
+sudo: reuired
+services:
+  - docker
+
+script:
+  - docker build -t manydeisgns/node .
+  - docker images manydeisgns/node
